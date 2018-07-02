@@ -1,0 +1,56 @@
+Name/Author: Jawad Sleiman
+Student ID: GL3231
+Email: gl3231@wayne.edu
+Github ID: jawadsleiman
+Github Profile Link: https://github.com/jawadsleiman
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Guide to Compile/Run the program:
+1. Make sure there is no schema/database that has the same name on MySQL Workbench
+2. Open the Java source code files under src/java 
+3. Run the Java project or run the createDB.java
+4. The main web interface page will open in a browser
+5. Click on Initialize Database and a database will be created in MySQL 
+6. Log in to the conference page or create a user on the webpage
+7. Program is ready to use!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Guide to use the program:
+While on the conference page which is the main page:
+1. To insert/delete/update a PC member: 
+	Click on "PC Members" button >> The list of members will show up >> you can Update/Delete from the list >> To add: click on "Add PC member" button
+
+2. To Search a PC member: 
+	On the PC member page >> Use the search field to type in the name of the member then hit search
+	You can also search for members in the search field in the conference page
+
+3. To insert/delete/update a paper:
+	On the conference page >> use the far right column to Update/Delete the paper >> To add: Click on the button at the bottom of the page "Add New Paper" 
+
+4. To assign PC members for papers:
+	On the conference page >> use the column "Assign PC members" and select the paper then start assigning PC members
+
+5. To review a paper:
+	On the conference page >> click on the name of the paper >> a new page will open showing the review information(Descriptions and recommendations)
+
+6. To view the accepted papers: (This function might not be functional on this version and would be there shortly)
+	On the conference page >> click on "Accepted Papers" button
+
+7. To view the rejected papers: (This function might not be functional on this version and would be there shortly)
+	On the conference page >> click on Rejected Papers" button
+
+8. To view the most paper reviewer: (This function might not be functional on this version and would be there shortly)
+	Go to PC Members page >> click on "Most Conference Paper Reviewer" button and will show the list of members
+
+9. To view the reviewed papers by members: (This function might not be functional on this version and would be there shortly)
+	Go to PC Members page >> click on "PC member neither reviewed any paper" button and will show the list of members
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For any questions/comments please email me at gl3231@wayne.edu
+
+Thank you for using my conference management site and database!

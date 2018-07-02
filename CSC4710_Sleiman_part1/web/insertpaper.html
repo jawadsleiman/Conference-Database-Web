@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Conference Paper</title>
+        
+        <style>
+            
+            .container{
+                margin-top: 15%;
+            }
+            input{
+                padding: 5px 10px;
+            }
+            h2,label{
+                margin: 20px;
+                color: saddlebrown;
+            }
+            .btn{
+                color: white;
+                padding: 5px 40px;
+                background-color: saddlebrown;
+                border-radius: 20px; 
+                border:none;
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <a href='http://localhost:8080/ConferenceWebsite/conferencepage'>
+            <button class="btn">Back</button>
+        </a>
+        
+        <center>
+            
+            <div class="container">
+                <h2>Add New Conference Paper</h2>
+                <form method="post" action="insert">
+                    <label>Title:</label><br>
+                    <textarea name="title" placeholder="Paper Title" required></textarea><br><br>
+
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abstract:</label><br>
+                    <textarea name="abstract" placeholder="Abstract" required></textarea><br><br>
+
+                    <label>FileName:</label><br>
+                    <input type="text" name="filename" placeholder="File Name" required><br><br>
+
+                    <button type="submit" name="insert" class="btn" value="Insert Paper">Insert Paper</button>
+
+                </form>
+            </div>
+        </center>
+    </body>
+</html>
